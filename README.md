@@ -38,5 +38,5 @@
 ---
 
 <p align="center">
-  <img src="ajricardo_logo.png" alt="AJ Ricardo Logo" width="100%">
+  <img src="ajricardo_logo.png" alt="AJ Ricardo Logo" width="50%">
 </p>
