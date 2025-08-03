@@ -1,45 +1,62 @@
 <p align="center">
-  <img src="1978_banner_ajricardo.png" alt="1978 Banner" style="width:100%;"/>
+  <img src="1978_banner_ajricardo.png" alt="1978 Banner" style="max-width: 100%; height: auto;">
 </p>
 
-<h1 align="center">🎶 1978 – AI-Driven Vinyl Discovery Engine 🎶</h1>
+# 1978 — Your Personal Top‑10 Vinyl Picks 🎶💿
 
-> *"Born in the era of vinyl. Reborn with AI."*
+**1978** is a Python-based toolkit that transforms your Apple Music listening history into a personalized vinyl crate—with smart AI‑powered album suggestions you probably don’t own yet.
 
-**1978** is a Python-based toolkit that turns your Apple Music listening history into a personalized vinyl crate starter kit—with AI-recommended picks you probably don’t own yet.
-
-The project is named `1978` in homage to the **peak era of vinyl record sales** and the dawn of personal audio obsession.
-
-It’s smart. It's nostalgic. It's yours.
-
----
-
-## 🧠 What It Does
-
-This repo currently includes two key scripts:
-
-1. 🚀 `library_parser.py`  
-   Parses your exported `Library.xml` (from Apple Music or Music.app) and builds `top10_real.json` with your most-played albums.
-
-2. 🤖 `vinyl_ai.py`  
-   Prompts OpenAI to generate five “crate‑digger” albums that match your musical taste but go beyond your Top 10—styled as a printable Markdown vinyl flyer.
-
-> **Coming soon**: Multi-model inference with Claude, Gemini, DeepSeek, and more.
+🚀 **It uses OpenAI's GPT model**, with other AI models coming soon.  
+📦 Fully local. Just run it and go crate-digging.
 
 ---
 
 ## 🔧 Setup & Usage
 
-### 1. Export your Apple Music Library XML  
-Use Music.app on macOS:  
-**File → Library → Export Library…**  
-→ Save as `Library.xml`.
+### 1. Export Your Apple Music Library
+Open Music.app → **File → Library → Export Library…**  
+Save the XML as `Library.xml`.
 
-Or use an automated tool like [`mirko-leccese/Apple-Music-Library-Analysis`](https://github.com/mirko-leccese/Apple-Music-Library-Analysis).
+Or automate it with tools like [`music-library-exporter`](https://github.com/mirko-leccese/Apple-Music-Library-Analysis)
+
+### 2. Parse Your Real Top 10
+```bash
+python3 library_parser.py /path/to/Library.xml
+```
+
+This creates `top10_real.json`.
+
+### 3. Get Smart AI Album Recommendations
+```bash
+python3 vinyl_ai.py
+```
+
+🔐 First run asks for your OpenAI API key (no `.env` needed).  
+Generates a vinyl flyer: `vinyl_recs.md`
 
 ---
 
-### 2. Parse your library
+## 📂 Files
 
-```bash
-python3 library_parser.py /path/to/Library.xml
+- `library_parser.py` — parses your most-played albums
+- `vinyl_ai.py` — AI crate-digger recommendations
+- `vinyl_recs.md` — output flyer
+- `top10_real.json` — saved top albums
+
+---
+
+## 💾 Coming Soon
+
+- 🔄 GPT-4o and Claude 3 support
+- 🖨️ Printable 'Dad to Son Vinyl Starter Kit'
+- 🧠 Music memory inference
+- 🎛️ Web app version with retro crate UI
+- 🪞 Personalized crate mirror for friends & family
+
+---
+
+> 🕺 **The project is named *1978* in homage to the golden era of vinyl.**  
+> Think: warm hiss, gatefold sleeves, and stories passed down on wax.
+
+---
+© AJ Ricardo — built with love 🩷
