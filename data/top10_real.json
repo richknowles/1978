@@ -1,0 +1,62 @@
+[
+  {
+    "rank": 1,
+    "album": "Higher Truth",
+    "artist": "Chris Cornell",
+    "plays": 63
+  },
+  {
+    "rank": 2,
+    "album": "The Dark Side of the Moon (50th Anniversary) [Remastered]",
+    "artist": "Pink Floyd",
+    "plays": 57
+  },
+  {
+    "rank": 3,
+    "album": "Black Pumas (Expanded Deluxe Edition)",
+    "artist": "Black Pumas",
+    "plays": 52
+  },
+  {
+    "rank": 4,
+    "album": "The Essential Stevie Ray Vaughan and Double Trouble",
+    "artist": "Stevie Ray Vaughan & Double Trouble",
+    "plays": 51
+  },
+  {
+    "rank": 5,
+    "album": "Rich & Emmett Knowles",
+    "artist": "Rich & Emmett Knowles",
+    "plays": 46
+  },
+  {
+    "rank": 6,
+    "album": "Habits of My Heart - EP",
+    "artist": "Jaymes Young",
+    "plays": 46
+  },
+  {
+    "rank": 7,
+    "album": "Traveller",
+    "artist": "Chris Stapleton",
+    "plays": 40
+  },
+  {
+    "rank": 8,
+    "album": "Dark Star - EP",
+    "artist": "Jaymes Young",
+    "plays": 40
+  },
+  {
+    "rank": 9,
+    "album": "Weightless (Ambient Transmission, Vol. 2)",
+    "artist": "Marconi Union",
+    "plays": 39
+  },
+  {
+    "rank": 10,
+    "album": "Songbook (Live)",
+    "artist": "Chris Cornell",
+    "plays": 36
+  }
+]
