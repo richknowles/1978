@@ -1,0 +1,48 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+__MACOSX/
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Backup files
+*.bak
+*.swp
+*~
+
+# OS junk
+ehthumbs.db
+Thumbs.db
+
+# dotenv
+.env
+.env.*
+
+# Apple metadata
+.Spotlight-V100/
+.TemporaryItems/
