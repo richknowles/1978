@@ -13,7 +13,7 @@
 <h1 align="center">🎧 1978 — Your Personal Top‑10 Vinyl Picks</h1>
 
 <p align="center">
-  <i>A lovingly crafted, AI-powered album recommendation tool from AJ Ricardo.</i>
+  <i>An AI-powered music nostalgia engine by AJ Ricardo.</i>
 </p>
 
 <p align="center">
@@ -24,27 +24,19 @@
 
 ---
 
-**1978** is a Python-based toolkit that turns your Apple Music listening history into a personalized vinyl crate starter kit — with **AI-recommended picks** you probably don’t own yet.
-
-This repo does two things:
-
-1. 🚀 **`library_parser.py`** — Parses your exported `Library.xml` and builds `top10_real.json` from your most-played albums.  
-2. 🤖 **`vinyl_ai.py`** — Prompts OpenAI to generate 5 vinyl crate-digger albums that match your taste but go beyond your Top 10 — styled as a Markdown flyer.
-
-> _Named ‘1978’ for the peak era of vinyl record sales, when music was tactile, personal… and perfect._
+**1978** is a Python app that analyzes your Apple Music library, generates your **Top 10 played albums**, then asks AI to suggest **crate-digger picks** you’ll probably love. Export as a printable list for your vinyl adventures.
 
 ---
 
-## 🔧 Setup & Usage
+## 🛠️ How It Works
 
-### 1. Export your Apple Music Library  
-Use Music.app:  
-**File → Library → Export Library…**  
-This generates `Library.xml`.
+1. Export your Apple Music Library XML  
+2. Run `library_parser.py`  
+3. Then run `vinyl_ai.py` — it uses OpenAI to suggest a personalized vinyl starter kit  
+4. Get a print-ready Markdown list of 10 records: 5 real, 5 AI-picked
 
-Or use [`music-library-exporter`](https://github.com/mirko-leccese/Apple-Music-Library-Analysis) for automated export.
+---
 
-### 2. Parse your library
-
-```bash
-python3 library_parser.py /path/to/Library.xml
+<p align="center">
+  <img src="ajricardo_logo.png" alt="AJ Ricardo Logo" width="100%">
+</p>
