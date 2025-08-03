@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="1978_logo_ajricardo.png" alt="1978 Logo" width="400"/>
+  <img src="1978_banner_ajricardo.png" alt="1978 Banner" style="width:100%;"/>
 </p>
 
 <h1 align="center">🎶 1978 – AI-Driven Vinyl Discovery Engine 🎶</h1>
