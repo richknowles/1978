@@ -1,5 +1,13 @@
 <p align="center">
-  <img src="1978_banner_ajricardo.png" alt="1978 Banner" style="max-width: 100%; height: auto;">
+  <img src="1978_banner_ajricardo.png" alt="1978 Banner" width="100%">
+</p>
+
+<p align="center">
+  <img src="ajricardo_aj.png" alt="AJ Cartoon" width="180">
+</p>
+
+<p align="center">
+  <img src="ajricardo_logo.png" alt="AJ Ricardo Logo" width="200">
 </p>
 
 # 1978 — Your Personal Top‑10 Vinyl Picks 🎶💿
